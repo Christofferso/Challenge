@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meteora</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./style.css">
+    
+</head>
+<body>
+   <header class="Cabecalho">
+    <nav class="Cabecalho__menu">
+    <img src="assets/Logo desktop.png" alt="Logo">
+        <a class="Cabecalho__menu__link">Home</a>
+        <a class="Cabecalho__menu__link">Nossas lojas</a>
+        <a class="Cabecalho__menu__link">Novidades</a>
+        <a class="Cabecalho__menu__link">Promoções</a>
+    </nav>
+    <nav class="Cabecalho">
+        <p class="selecao__produto">Digite o produto </p>
+        <button>Buscar</button>
+        </nav>
+   </header>
+   <main>
+    <section class="Carrosel">
+<div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide"><img src="./assets/Imagem banner 1.png" alt=""></div>
+    <div class="swiper-slide"><img src="./assets/Imagem banner2.png" alt=""></div>
+    <div class="swiper-slide"><img src="./assets/Banner carousel 3 _ 1440.png" alt=""></div>
+    ...
+  </div>
+  <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
+
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+  <!-- If we need scrollbar -->
+  <div class="swiper-scrollbar"></div>
+</div>
+</section>
+    <h1 class="titulo_principal">Busque por categoria:</h1>
+    <div class="cards">
+    <section class="card">
+        <img src="./assets/Categoria Bolsa.png">
+        <p class="texto_card">Bolsa</p>
+    </section>
+
+    <section class="card">
+        <img src="./assets/Categoria camiseta.png">
+        <p class="texto_card">Camiseta</p>
+    </section>
+
+    <section class="card">
+        <img src="./assets/Categoria Calçados.png">
+        <p class="texto_card">Calçados</p>
+    </section>
+    
+    <section class="card">
+        <img src="./assets/Categoria calça.png">
+        <p class="texto_card">Calça</p>
+    </section>
+
+    <section class="card">
+        <img src="./assets/Categoria casaco.png">
+        <p class="texto_card">Casaco</p>
+    </section>
+
+    <section class="card">
+        <img src="./assets/Categoria oculos.png">
+        <p class="texto_card">Óculos</p>
+    </section>
+    </div>
+    
+    <section class="produtos_gerais">
+      <h2>Produtos que estão bombando!</h2>
+      <div class="produtos">
+        <div class="produtos_catalogo">
+           <img src="./assets/Bolsa.png" alt="bolsa">
+             <div class="produtos_descricao">
+               <h6>Camiseta conforto</h6>
+               <p>Multicores e tamanhos. Tecido de algodão 100%,<br> fresquinho para o verão. Modelagem unissex.</p>
+               <p class="produtos_descricao_texto"> R$70,00</p>
+               <button class="btn_open">Ver mais</button>
+             </div>
+             <dialog>
+              <h4>E-mail cadastrado com sucesso!</h4>
+              <div class="ll">
+              <img src="./assets/Jaqueta.png">
+              <div>
+                <h5>Jaqueta Jeans</h5>
+                <p>Modelo unissex oversized com gola de camurça.<br>
+                  Atemporal e autêntica!</p>
+                  <hr>
+              <p>R$150,00</p>
+              <p>Vendido e entregue por Riachuelo</p>
+              <hr>
+              <h5>Cores:</h5>
+              <input type="radio" id="radio" placeholder="azul claro" size="30">
+              <input type="radio" id="radio" placeholder="azul claro" size="30">
+              <input type="radio" id="radio" placeholder="azul claro" size="30">
+               <h5>Tamanhos</h5>
+               <input type="radio" id="radio" placeholder="azul claro" size="30">
+               <input type="radio" id="radio" placeholder="azul claro" size="30">
+              <input type="radio" id="radio" placeholder="azul claro" size="30">
+              <input type="radio" id="radio" placeholder="azul claro" size="30">
+              <br>
+              <button>Adicionar á sacola</button>
+            </div>
+            </div>
+          <button class="btn_fechar">Fechar</button>
+             </dialog>
+            </div>
+
+        <div class="produtos_catalogo">
+            <img src="./assets/Calça.png" alt="bolsa">
+              <div class="produtos_descricao">
+                <h6>Calça alfaiataria </h6>
+                <p>Modelo Wide Leg alfaiataria em linho. Uma peça<br> pra vida toda!</p>
+                <p class="produtos_descricao_texto">R$180,00</p>
+                <button>Ver mais</button>
+              </div>
+         </div>
+
+         <div class="produtos_catalogo">
+            <img src="./assets/Tenis.png" alt="bolsa">
+              <div class="produtos_descricao">
+                <h6>Tenis Chunky</h6>
+                <p>Snicker casual com solado mais alto e modelagem <br> Modelo unissex.</p>
+                <p class="produtos_descricao_texto">R$250,00</p>
+                <button>Ver mais</button>
+              </div>
+         </div>
+
+        </section>
+
+        <section class="produtos_gerais_secundario">
+         <div class="produtos">
+            <div class="produtos_catalogo">
+               <img src="./assets/Jaqueta.png" alt="bolsa">
+                 <div class="produtos_descricao">
+                   <h6>Jaqueta Jeans</h6>
+                   <p>Modelo unissex oversized com gola de camurça.<br> Atemporal e autêntica!.</p>
+                   <p class="produtos_descricao_texto">R$150,00</p>
+                   <button>Ver mais</button>
+                 </div>
+            </div>
+    
+            <div class="produtos_catalogo">
+                <img src="./assets/óculos.png" alt="bolsa">
+                  <div class="produtos_descricao">
+                    <h6>Óculos Redondo</h6>
+                    <p>Armação metálica em grafite com lentes <br>Sem erro!
+                    <p class="produtos_descricao_texto">R$120,00</p>
+                    <button>Ver mais</button>
+                  </div>
+             </div>
+    
+             <div class="produtos_catalogo">
+                <img src="./assets/Bolsa.png" alt="bolsa">
+                  <div class="produtos_descricao">
+                    <h6>Bolsa coringa</h6>
+                    <p>Bolsa camel em couro sintético de alta duração. <br> para acompanhar você por uma vida!</p>
+                    <p class="produtos_descricao_texto">R$250,00</p>
+                    <button>Ver mais</button>
+                  </div>
+             </div>
+    </section>
+
+        <section class="container">
+            <h4>Conheça todas as nossas facilidades</h4>
+            <div class="container_total">
+                <div>
+                    <img src="./assets/Union.png" alt="Logo">
+                    <h5>Pague pelo pix</h5>
+                    <p>Ganhe 5% OFF em <br>Pagamento via PIX</p>
+                </div>
+                <div>
+                    <img src="./assets/Vector (1).png" alt="Logo">
+                    <br>
+                    <br><h5>Troca grátis</h5>
+                    <p>Fique livre para trocar em até <br>30 dias depois de usado.</p>
+                </div>
+                <div>
+                    <img src="./assets/Subtract.png" alt="Logo">
+                    <h5>Sustentabilidade</h5>
+                    <p>Moda responsável, que respeita o <br>meio ambiente.</p>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="Newsletter">
+          <div class="Newsletter_Secundaria">
+            <h4>Quer receber nossas novidades, promoções exclusivas e 10% OFF na primeira compra? <br>Cadastre-se</h4>
+             <div class="Newsletter_email">
+               <form>
+                <input type="email" id="email" placeholder="Digite seu  email" size="30">
+               </form>
+               <button class="btn_secundario">Enviar</button>
+             </div>
+             <dialog class="dialog_abrir">
+              <h4>E-mail cadastrado com sucesso!</h4>
+              <p>Em breve você receberá novidades exclusivas da Meteora</p>
+                
+          <button class="botao_fechar">Fechar</button>
+            </dialog>
+        </div>
+        </section>
+   </main>
+
+
+   <footer>
+    
+    <h4>2023 © Desenvolvido por Alura | Projeto fictício sem fins comerciais.</h4>
+   </footer>
+   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+   <script src="./script.js"></script>
+</body>
+</html>

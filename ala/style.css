@@ -1,0 +1,249 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+*, 
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-size: 100%;
+    list-style-type: none;
+}
+
+header{
+    background-color: black;
+    color: white;
+    padding: 2px;
+}
+.Cabecalho{
+display:flex;
+justify-content: space-between;
+gap: 20px;
+
+}
+.Cabecalho__menu__link{
+    padding: 40px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.selecao__produto{
+    border: solid 1px;
+    width: 100px;
+    text-align: center;
+    background-color: white;
+    color: black;
+}
+
+button{
+    padding: 10px;
+    border: solid 1px;
+    width: 100px;
+    background-color: black;
+    color: white;
+
+}
+
+.imagem__banner{
+    width: 100%;
+}
+
+.titulo_principal{
+    padding: 40PX;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: "inter";
+    color: #212529;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 43px;
+}
+.card{
+    text-align: center;
+    background-color: black;
+    color: #ffffff;
+
+}
+
+.texto_card{
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    font-size: 15px;
+
+}
+.produtos_gerais h2{
+    text-align: center;
+    padding: 100px;
+    font-size: 40PX;
+
+}
+.produtos_catalogo{
+border: solid 1px #212559;
+}
+
+.produtos{
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+}
+.produtos_descricao{
+    padding-left: 20px;
+}
+
+.produtos_descricao h6{
+    font-weight: bold ;
+    font-size: 20px;
+}
+
+.produtos_descricao p{
+    padding-top: 10px;
+    font-size: 16px;
+}
+.produtos_descricao_texto{
+    font-weight: bold;
+}
+.btn_open{
+    background-color: #9353ff;
+    font-weight: bold;
+}
+
+
+.produtos_gerais_secundario{
+    padding: 50px;
+}
+.swiper-button-prev, .swiper-button-next{
+    display: none;
+}
+.Carrosel img{
+    background-color: #000;
+    width: 100%;
+}
+
+.swiper-slides img{ 
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container{
+    padding: 35px;
+    background-color: #000000;
+    color: white;
+}
+.container h4{
+    text-align: center;
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.container_total{
+    display: flex;
+    justify-content: center;
+    gap: 250px;
+}
+
+.container_total h5{
+    color: #daff01;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.Newsletter{
+    padding: 80px;
+    text-align: center;
+}
+.Newsletter_Secundaria{
+    border: solid 1px;
+    padding: 20px;
+    padding-left: 0.5px;
+}
+
+.Newsletter_email{
+    display: flex;
+    justify-content: center;
+}
+.Newsletter_email form{
+    padding-top: 20px;
+}
+
+.btn_secundario{
+    background-color: #9353ff;
+    font-style: italic;
+
+}
+footer{
+    background-color: black;
+    padding: 30px;
+
+}
+footer h4{
+    color: white;
+    text-align: center;
+}
+.dialog_abrir{
+    width: 700px;
+}
+.dialog_abrir h4{
+    background-color: #000;
+    padding: 10px;
+    color: white;
+    
+}
+
+.dialog_abrir p {
+    font-family:Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.ll{
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+}
+
+
+dialog h4{
+    background-color: #000;
+    color: white;
+    padding: 10px
+}
+
